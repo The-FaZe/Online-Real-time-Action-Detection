@@ -5,7 +5,7 @@ We start our work basd on this paper: [Online Real-time Multiple Spatiotemporal 
 ## Dataset
 - the Dataset is [UCF24](http://www.thumos.info/download.html) with [revised annotaions](https://github.com/gurkirt/corrected-UCF101-Annots) released with this [paper](https://arxiv.org/pdf/1611.08563)
 - To simulate the same training and evaluation setup like the paper we use extracted `rgb` images from videos along with optical flow images (both `brox flow` and `real-time flow`) computed for the UCF24 dataset provided by  [google drive link](https://drive.google.com/file/d/1o2l6nYhd-0DDXGP-IPReBP4y1ffVmGSE/view?usp=sharing).
-- **Based to my work on Google Colab you should follow these steps to download and extract the dataset. You just need to copy the below code as it is and run it**
+- **Based to my work on Google Colab,you just need to copy the below code as it is and run it.**
 ```Shell
 # Create project forder and dataset folder
 !mkdir Action_Detection
